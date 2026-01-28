@@ -1,0 +1,73 @@
+body {
+    background-image: url(NewYear4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heading {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+h1 {
+    font-size: 90px;
+    margin-top: 100px;
+    font-family: 'Dancing Script', cursive;
+    color: #feffba;
+}
+
+.btn {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+}
+button {
+    border: none;
+    background-color: #03081c;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+    flex-wrap: wrap;
+}
+
+.block {
+    display: flex;
+    justify-content: center;
+} 
+
+h3 {
+    font-size: 80px;
+    font-family: 'Dancing Script', cursive;
+    color: #feffba;
+}
+
+.days, .hours, .minutes, .seconds {
+    font-size: 60px;
+    font-family: 'Dancing Script', cursive;
+    color: #feffba;
+    padding: 30px;
+}
+
+.play {
+    background-image: url(icons8-play-64.png);
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+}
+
+@media all and(max-width: 800px) {
+    h1 {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    
+    .days, .hours, .minutes, .seconds {
+        font-size: 20px;
+    }
+}
